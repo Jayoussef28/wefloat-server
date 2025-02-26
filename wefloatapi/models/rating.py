@@ -10,4 +10,4 @@ class Rating(models.Model):
         ('5', '5'),
     ]
   
-    value = models.CharField(max_length=10, choice=RATING_VALUES, default='1')
+    value = models.CharField(max_length=10, choices=RATING_VALUES, default='1')
