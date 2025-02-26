@@ -1,6 +1,7 @@
 from django.db import models
 from .user import User
 from .rating import Rating
+from .difficulty import Difficulty
 
 class Float(models.Model):
 
