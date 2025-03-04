@@ -1,0 +1,24 @@
+[
+  {
+      "model": "wefloatapi.comment",
+      "pk": 1,
+      "fields": {
+          "float": 1,
+          "commenter": 2,
+          "rating": 4,
+          "body": "Oh I loved this float! There were so many Turtles",
+          "created_on": "2025-01-22"
+      }
+  },
+  {
+      "model": "wefloatapi.comment",
+      "pk": 2,
+      "fields": {
+          "float": 2,
+          "commenter": 1,
+          "rating": 5,
+          "body": "LOVE this float. Grey the shop dog at Webbs is the sweetest!",
+          "created_on": "2024-07-11"
+      }
+  }
+] 

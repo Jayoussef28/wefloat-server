@@ -1,0 +1,18 @@
+[
+  {
+      "model": "wefloatapi.floattag",
+      "pk": 1,
+      "fields": {
+          "float": 2,
+          "tag": 5
+      }
+  },
+  {
+      "model": "wefloatapi.floattag",
+      "pk": 2,
+      "fields": {
+          "float": 1,
+          "tag": 1
+      }
+  }
+] 

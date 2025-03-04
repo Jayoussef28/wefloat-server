@@ -1,0 +1,26 @@
+[
+  {
+    "model": "wefloatapi.user",
+    "pk": 1,
+    "fields": {
+      "username": "Jayoussef28",
+      "first_name": "Jordan",
+      "last_name": "Youssef",
+      "bio": "Nature lover, and adventure chaser—always exploring, one float at a time.",
+      "image": "https://i.pinimg.com/564x/42/23/7b/42237b9fd34b36ad15aca8788f6c9339.jpg",
+      "uid": ""
+    }
+  },
+  {
+    "model": "wefloatapi.user",
+    "pk": 2,
+    "fields": {
+      "username": "NellieKane5",
+      "first_name": "Nellie",
+      "last_name": "Kane",
+      "bio": "Kayaking: because therapy is expensive and the river listens for free!",
+      "image": "https://i.pinimg.com/564x/42/23/7b/42237b9fd34b36ad15aca8788f6c9339.jpg",
+      "uid": ""
+    }
+  }
+]
