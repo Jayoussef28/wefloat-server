@@ -1,0 +1,30 @@
+[
+  {
+      "model": "wefloatapi.difficulty",
+      "pk": 1,
+      "fields": {
+          "name": "Easy"
+      }
+  },
+  {
+      "model": "wefloatapi.difficulty",
+      "pk": 2,
+      "fields": {
+          "name": "Moderate"
+      }
+  },
+  {
+      "model": "wefloatapi.difficulty",
+      "pk": 3,
+      "fields": {
+          "name": "Hard"
+      }
+  },
+  {
+      "model": "wefloatapi.difficulty",
+      "pk": 4,
+      "fields": {
+          "name": "Extreme"
+      }
+  }
+]

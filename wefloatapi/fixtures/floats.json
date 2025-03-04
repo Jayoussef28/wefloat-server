@@ -1,0 +1,32 @@
+[
+  {
+      "model": "wefloatapi.float",
+      "pk": 1,
+      "fields": {
+          "name": "Duck River Float",
+          "author": 1,
+          "location": "Lewisburg, TN",
+          "description": "To access this specific float on the duck river you will put in at Milltown Dam and  take out at Howlin' Hill. Easy scenic float with steep rock cliffs and greats banks to stop and eat lunch!",
+          "distance": "5 miles",
+          "difficulty": 1,
+          "image": "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/d/u/Duck_River_reflections_-_20130915-143_HDR_4000x2200.jpg?crop=0%2C0%2C4000%2C2200&wid=4000&hei=2200&scl=1.0",
+          "rating": 3,
+          "created_on": "2025-01-21"
+      }
+  },
+  {
+      "model": "wefloatapi.float",
+      "pk": 2,
+      "fields": {
+          "name": "Upper Hiwassee River",
+          "author": 2,
+          "location": "Reliance, TN",
+          "description": "My favorite float in TN! Awesome rapids. While you can take your own kayak, I recommend renting a funyak from Webb Brothers Outfitters!",
+          "distance": "5 miles",
+          "difficulty": 3,
+          "image": "https://d1tif55lvfk8gc.cloudfront.net/643ac1f263c0a63232764705.jpg?1643237111",
+          "rating": 5,
+          "created_on": "2024-07-10"
+      }
+  }
+] 
