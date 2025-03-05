@@ -48,7 +48,7 @@ class FloatTagView(ViewSet):
     return Response(serializer.data, status=status.HTTP_200_OK)
   
   def destroy(self, request, pk):
-    float_tag = Float.objects.get(pk=pk)
+    float_tag = FloatTag.objects.get(pk=pk)
     float_tag.delete()
     return Response(None, status=status.HTTP_204_NO_CONTENT)
   

@@ -13,5 +13,5 @@ class Float(models.Model):
     difficulty = models.ForeignKey(Difficulty, on_delete=models.CASCADE,null=False)
     image = models.TextField(default="https://i.pinimg.com/564x/42/23/7b/42237b9fd34b36ad15aca8788f6c9339.jpg")
     rating = models.ForeignKey(Rating, on_delete=models.CASCADE, null=False)
-    created_on = models.DateField()
+    created_on = models.DateField(auto_now_add=True)
     

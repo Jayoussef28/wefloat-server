@@ -9,4 +9,4 @@ class Comment(models.Model):
     commenter = models.ForeignKey(User, on_delete=models.CASCADE, null=False)
     rating = models.ForeignKey(Rating, on_delete=models.CASCADE, null=False)
     body = models.CharField(max_length=500)
-    created_on = models.DateField()
+    created_on = models.DateField(auto_now_add=True)

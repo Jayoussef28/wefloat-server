@@ -30,7 +30,7 @@ class CommentView(ViewSet):
       
     def create(self, request):
 
-      commenter = User.objects.get(uid=request.data["commenter"])
+      commenter = User.objects.get(pk=request.data["commenter"])
       float = Float.objects.get(pk=request.data["float"])
       rating = Rating.objects.get(pk=request.data["rating"])
 
@@ -45,7 +45,7 @@ class CommentView(ViewSet):
   
     def update(self, request, pk):
       
-        commenter = User.objects.get(uid=request.data["commenter"])
+        commenter = User.objects.get(pk=request.data["commenter"])
         float = Float.objects.get(pk=request.data["float"])
         rating = Rating.objects.get(pk=request.data["rating"])
     
@@ -69,5 +69,5 @@ class CommentSerializer(serializers.ModelSerializer):
   
     class Meta:
         model = Comment
-        fields = ('id', 'float', 'commenter', 'rating', 'body')
+        fields = ('id', 'float', 'commenter', 'rating', 'body', 'created_on')
         depth = 1
