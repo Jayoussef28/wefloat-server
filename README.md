@@ -26,23 +26,14 @@ weFloat is a Python/Django application which allows users to create and share th
 ## Links
 - ERD - https://dbdiagram.io/d/weFloat-ERD-6785b5e36b7fa355c3c612f9
 - Project Board - https://github.com/users/Jayoussef28/projects/4
-API Documentation -
-Postman Loom - 
-Test Loom - 
+- API Documentation -
+- Postman Loom - 
+- Test Loom - 
 
 ## Code Snippet
-class Float(models.Model):
 
-    name = models.CharField(max_length=50)
-    location = models.CharField(max_length=50)
-    author = models.ForeignKey(User, on_delete=models.CASCADE, null=False)
-    description = models.CharField(max_length=500)
-    distance = models.CharField(max_length=10) 
-    difficulty = models.ForeignKey(Difficulty, on_delete=models.CASCADE,null=False)
-    image = models.TextField(default="https://i.pinimg.com/564x/42/23/7b/42237b9fd34b36ad15aca8788f6c9339.jpg")
-    rating = models.ForeignKey(Rating, on_delete=models.CASCADE, null=False)
-    created_on = models.DateField(auto_now_add=True)
-    
+![Screenshot 2025-03-08 093307](https://github.com/user-attachments/assets/7735d94a-28a2-4121-a8a7-5d56b8d2ffcc)
+
 
 
 
