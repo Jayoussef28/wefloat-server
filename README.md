@@ -27,8 +27,9 @@ weFloat is a Python/Django application which allows users to create and share th
 - ERD - https://dbdiagram.io/d/weFloat-ERD-6785b5e36b7fa355c3c612f9
 - Project Board - https://github.com/users/Jayoussef28/projects/4
 - API Documentation - https://documenter.getpostman.com/view/34024981/2sAYdoF7eg
-- Postman Loom - 
+- Postman Loom - https://www.loom.com/share/102bdb5504204878a0eb791686bb3fd2?sid=e60bbb07-8c58-4dd6-be68-cdbadde8f10f
 - Test Loom - https://www.loom.com/share/e2a2fb56930840399ffd92c5cfe66005?sid=13efc219-bcba-4de2-a512-1fa0358491d6
+
 
 ## Code Snippet
 
