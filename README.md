@@ -28,7 +28,7 @@ weFloat is a Python/Django application which allows users to create and share th
 - Project Board - https://github.com/users/Jayoussef28/projects/4
 - API Documentation - https://documenter.getpostman.com/view/34024981/2sAYdoF7eg
 - Postman Loom - 
-- Test Loom - 
+- Test Loom - https://www.loom.com/share/e2a2fb56930840399ffd92c5cfe66005?sid=13efc219-bcba-4de2-a512-1fa0358491d6
 
 ## Code Snippet
 
