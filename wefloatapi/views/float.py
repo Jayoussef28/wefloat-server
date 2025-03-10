@@ -11,7 +11,7 @@ class FloatView(ViewSet):
       try: 
         float = Float.objects.get(pk=pk) 
       
-        tags = Tag.objects.filter(floattag_float_id=float)
+        tags = Tag.objects.filter(floattag__float=float)
         float.tags=tags
         
         serializer = FloatSerializer(float)
@@ -37,7 +37,7 @@ class FloatView(ViewSet):
 
     
       for float in floats:
-        tags = Tag.objects.filter(floattag__float_id=float)
+        tags = Tag.objects.filter(floattag__float=float)
         float.tags=tags
     
       serializer = FloatSerializer(floats, many=True)
