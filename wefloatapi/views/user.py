@@ -42,6 +42,7 @@ class UserView(ViewSet):
   
   def update(self, request, pk):
 
+      id = pk
       user = User.objects.get(pk=pk)
       user.username=request.data["username"]
       user.first_name=request.data["first_name"]
