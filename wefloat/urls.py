@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from wefloatapi.views import check_user, UserView
+from wefloatapi.views import check_user, register_user, UserView
 from wefloatapi.views import FloatView, CommentView, UserView, TagView, FloatTagView, RatingView, DifficultyView
 
 
@@ -34,5 +34,6 @@ router.register(r'floattags', FloatTagView, 'floattag')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('register', register_user),
     path('checkuser', check_user, name='check_user')
 ]
