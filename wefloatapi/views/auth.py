@@ -10,14 +10,11 @@ def check_user(request):
 
     if user is not None:
         data = {
-            'id': user.id,
             'username': user.username,
             'firstName': user.first_name,
             'lastName': user.last_name,
             'image': user.image,
             'bio': user.bio,
-            'uid': user.uid,
-
         }
         return Response(data)
     else:
@@ -33,13 +30,14 @@ def register_user(request):
         bio=request.data['bio'],
         uid=request.data['uid'],
         first_name=request.data['firstName'],
-        last_name=request.data['lastName'],
+        last_name=request.data['lastName']
     )
 
     data = {
         'id': user.id,
         'uid': user.uid,
         'bio': user.bio,
+        'username': user.username,
         'firstName': user.first_name,
         'lastName': user.last_name,
         'image': user.image

@@ -45,7 +45,7 @@ class FloatView(ViewSet):
   
     def create(self, request):
     
-      author = User.objects.get(pk=request.data["author"])
+      author = User.objects.get(uid=request.data["author"])
       rating = Rating.objects.get(pk=request.data["rating"])
       difficulty = Difficulty.objects.get(pk=request.data["difficulty"])
     
@@ -73,7 +73,7 @@ class FloatView(ViewSet):
   
     def update(self, request, pk):
     
-      author = User.objects.get(pk=request.data["author"])
+      author = User.objects.get(uid=request.data["author"])
       difficulty = Difficulty.objects.get(pk=request.data["difficulty"])
       rating = Rating.objects.get(pk=request.data["rating"])
     
